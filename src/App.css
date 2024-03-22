@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+iframe
+{
+    display: none;
+}
+
+body {
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  font-family: "Inter";
+  background: linear-gradient(90deg, #181818 23%, teal 100%);
+}
+
+.user-video {
+  background: url('https://t4.ftcdn.net/jpg/02/08/98/17/360_F_208981748_9fbrA3Hy2GGajHn4XDtfzVFMzHiXguYg.jpg') center center / contain no-repeat #fff;
+}
